@@ -46,6 +46,7 @@ h1 {
     display: flex;
     align-items: center;
     padding: 12px 0 12px 0.5em;
+
 }
 
 .container img {
@@ -178,10 +179,13 @@ img {
   }
 
 
-  @media only screen and (max-width: 1024px)
-body {
-    font-size: 16px;
-}
+  @media only screen and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+  }
+
 
 @media only screen and (max-width: 470px) {
   .main-banner {
